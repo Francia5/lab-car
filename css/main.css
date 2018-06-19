@@ -131,8 +131,33 @@ form {
 }
 
 .box-ftr {
-        background-color:  rgb(43, 43, 43);
-        color: white;
-        position: relative;
-        display: flex;
+    background-color:  rgb(43, 43, 43);
+    color: white;
+    position: relative;
+    display: flex;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+.first {
+    top: 80%;
+
+}
+
+.lines-ftr {
+    height: 1px;
+    border-color: whitesmoke;
+}
+
+.download {
+    top: 35%;
+    position: relative;
+    right: 10%;
+}
+
+.copyright {
+    text-align: center;
+    background-color:rgb(43, 43, 43);
+    color: white; 
 }
